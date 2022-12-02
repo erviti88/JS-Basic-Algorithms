@@ -19,13 +19,13 @@ const rickAndMortyCharacters = ["Rick", "Beth", "Jerry"];
 
 rickAndMortyCharacters.push('Morty','Summer');
 console.log(rickAndMortyCharacters);
-console.log(rickAndMortyCharacters[4]);
+console.log(rickAndMortyCharacters[rickAndMortyCharacters.length - 1]);
 
 /* 1.5 Elimina el último elemento del array y muestra el primero y el último por consola. */
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
 rickAndMortyCharacters.pop();
-console.log(rickAndMortyCharacters[0] + ' y ' + rickAndMortyCharacters[4]);
+console.log(rickAndMortyCharacters[0] + ' y ' + rickAndMortyCharacters[rickAndMortyCharacters.length - 1]);
 
 /* 1.6 Elimina el segundo elemento del array y muestra el array por consola. */
 const rickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
